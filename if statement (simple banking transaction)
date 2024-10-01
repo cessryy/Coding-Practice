@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	float balance = 2000.00;
+	float wAmount;
+	
+	cout << "Enter amount to withdraw: ";
+	cin >> wAmount;
+	
+	if (wAmount <= balance) {
+		balance -= wAmount;
+		cout << "Transaction successful! Your new balance  is: " << balance << endl;
+	} else {
+		cout << "Insufficient funds! Your current balance is: " << balance << endl;
+	}
+	return 0;
+}
