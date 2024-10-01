@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	float balance = 2000.00;
 	float wAmount;
-	
+	cout << "Welcome to my simple banking system\n";
 	cout << "Enter amount to withdraw: ";
 	cin >> wAmount;
 	
